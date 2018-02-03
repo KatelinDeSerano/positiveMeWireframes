@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 500px;
+  }
+
+input[type="number"] {
+width: 50px;
+margin: 0;
+}
+
+label {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+ .self-talk-form, .signUp{
+     height: 80%;
+     width: 40%;
+     margin: auto;
+     margin-top: 50px;
+     padding: 20px;
+     border: 1px solid black;
+     background-color: gainsboro;
+ }
+
+ button {
+     margin-top: 15px;
+ }
+
+ section {
+    border: 1px solid black;
+    padding: 30px;
+    background-color: gainsboro; 
+    margin: 10px;
+    text-align: center;
+ }
+
+ .howItWorks ul {
+    display: inline-block;
+    background-color: gainsboro;
+    margin: 0;
+    text-align: center;
+ }
+
+ .landingpage {
+     border: none;
+     background-color: white;
+ }
+
+
+
+ 

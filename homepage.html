@@ -5,14 +5,43 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/homepage.html/">Home</a> |
-      <a href="/entriesPage.html/">Journal</a> |
-      <a href="/statsPage/">Stats</a> |
-    </nav>
+    <div class"nav">
+        <ul>
+            <li><a href="/homepage.html/">Home</a></li> 
+            <li><a href="/journal.html/">Journal</a></li> 
+            <li><a href="/stats.html/">Stats</a></li>
+        </ul>
+    </div>
+    <div class="self-talk-form">
+        <h1>Journal Entry</h1>
+        <p class="date-header">Date</p>
+        <input type="number" name="date-month" placeholder="01" min="1" max="12" required=""> .
+        <input type="number" name="date-day" class="date-day"  placeholder="01" min="1" max="31" required=""> .
+        <input type="number" name="date-year" class="date-year" placeholder="2018" min="2017" max="2018" required=""><br>
+        <label for="negative-thought">Negative Thought</label><br>
+        <textarea name="journal-entry" rows="4" 
+        placeholder="Write down a negative thought you had today" required></textarea><br>
+        <label for="emotion">Associated Emotion</label><br>
+            <span class="far fa-smile checked"></span>
+            <span class="far fa-meh checked"></span>
+            <span class="far fa-frown checked"></span><br>
+        <label for="evidence">Unsupporting Evidence</label><br>
+        <textarea name="journal-entry" rows="4" 
+        placeholder="Write down evidence that does NOT support this negative thought" required></textarea><br>
+        <label for="alternative-thought">Alternative Thought</label><br>
+        <textarea name="journal-entry" rows="4" 
+        placeholder="Write down a positive althernative thought to the negative thought you had today" required></textarea><br>
+        <label for="emotion">Associated Emotion</label><br>
+            <span class="far fa-smile checked"></span>
+            <span class="far fa-meh checked"></span>
+            <span class="far fa-frown checked"></span><br>
+        <button id="submitForm" type="submit">Submit</button>
+        
+    </div>
     
   </body>
 </html>
